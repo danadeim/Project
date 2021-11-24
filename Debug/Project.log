@@ -1,0 +1,48 @@
+﻿  Source.cpp
+C:\Users\Admin\Project\Project\Source.cpp(34,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(30): message : во время компиляции функции-члена класс шаблон "std::ostream &operator <<(std::ostream &,const MyVector<int> &)"
+C:\Users\Admin\Project\Project\Source.cpp(205): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::ostream &operator <<(std::ostream &,const MyVector<int> &)"
+C:\Users\Admin\Project\Project\Source.cpp(204): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyVector<int>"
+C:\Users\Admin\Project\Project\Source.cpp(48,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(44): message : во время компиляции функции-члена класс шаблон "MyVector<int>::MyVector(void)"
+C:\Users\Admin\Project\Project\Source.cpp(204): message : выполняется компиляция ссылки на экземпляр шаблон функции "MyVector<int>::MyVector(void)"
+C:\Users\Admin\Project\Project\Source.cpp(128,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(116): message : во время компиляции функции-члена класс шаблон "void MyVector<int>::insert(size_t,const T [],size_t)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Admin\Project\Project\Source.cpp(206): message : выполняется компиляция ссылки на экземпляр шаблон функции "void MyVector<int>::insert(size_t,const T [],size_t)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Admin\Project\Project\Source.cpp(131,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(141,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(154,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(157,32): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(160,39): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(178,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(173): message : во время компиляции функции-члена класс шаблон "size_t MyVector<int>::remove(const T &,size_t)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Admin\Project\Project\Source.cpp(219): message : выполняется компиляция ссылки на экземпляр шаблон функции "size_t MyVector<int>::remove(const T &,size_t)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Admin\Project\Project\Source.cpp(180,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(194,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Admin\Project\Project\Source.cpp(192): message : во время компиляции функции-члена класс шаблон "bool MyVector<int>::removeAll(const T &,size_t)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Admin\Project\Project\Source.cpp(216): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool MyVector<int>::removeAll(const T &,size_t)"
+          with
+          [
+              T=int
+          ]
+  Project.vcxproj -> C:\Users\Admin\Project\Debug\Project.exe
